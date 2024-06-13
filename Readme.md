@@ -15,7 +15,7 @@ An S3 bucket to store pipeline artifacts.
 A VPC with subnets and security groups configured for your EC2 instances or ECS cluster.
 
 ## Steps to Set Up the CI/CD Pipeline
-1. Set Up the Source Repository
+## 1. Set Up the Source Repository
 Create a repository in AWS CodeCommit and push your application code. The repository should include:
 
 Dockerfile for building the Nginx Docker image.
